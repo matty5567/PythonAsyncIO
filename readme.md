@@ -6,7 +6,7 @@ Aysc IO is a concurrent programming design that has dedicated support in Python 
 
 <h2>What does it mean to be asynchronous?</h2>
 
-    - Asynchronous routines are able to "pause" while waiting on their ultimate result and let other routines run in the meantime
+    - Asynchronous routines are able to "pause" while waiting on their ultimate result and let other routitnes run in the meantime
     - Asynchronous code, through the mechanism above, facilitates concurrent execution.
 
 <br>
@@ -39,7 +39,7 @@ Whe using await f(), its required that f() is awaitable:
 
 ---
 
-<h3>Chaining Coroutines<h4>
+<h3>Chaining Coroutines</h4>
 
 A key feature of corourines is that they can be chained together, this allows you to break coroutines into smaller, manageable, recyclable coroutines.
 
@@ -47,7 +47,7 @@ See <b>examples/chaining_coroutines.py</b> for a code example.
 
 <br>
 
-<h3>Using a Queue<h4>
+<h3>Using a Queue</h3>
 
 A number of producers, which are not associated with each other, add items to a queue, at random, unannounced times. A group of consumers pull items from the queue as they show up, greedily and without waiting for any other signal.
 
